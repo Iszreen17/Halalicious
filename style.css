@@ -1,44 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.right{
+    float:right;
+    direction:inline-block ;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    padding: 20px;
+#navbar{
+    background-color: aliceblue;
+    overflow:hidden
 }
-nav{
-    flex: 1;
-    text-align: right;
-}
-nav ul{
-    display: inline-block;
-    list-style: none;
-}
-nav ul li{
-    display: inline-block;
-    margin-right: 20px;
-}
-a{
-    text-decoration: none;
-    color: #555;
-}
-p{
-    color: #555;
-}
-.container{
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-body{
-    background-image: url(Orange\ Colorful\ Vibrant\ Illustration\ Animated\ Food\ Restaurant\ Presentation_page-0001.jpg);
-    background-repeat: no-repeat;
+header{
+    background: url(Orange\ Colorful\ Vibrant\ Illustration\ Animated\ Food\ Restaurant\ Presentation_page-0001.jpg);
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
+    min-height: 1000px;
+}
+#navbar a{
+    float: left;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar a:hover{
+    background-color: beige;
+    color: black;
+  }
+  
+  img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    padding: 25px;
+  }
+  img:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+  }
+
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: antiquewhite;
+    position: absolute;
+    padding: 25px;
+    width: 100%;
     
+  }
+  figcaption{
+    text-align: center;
+  }
+  #heading{
+    background-color: antiquewhite;
+  }
+ 
+  .containers{
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: space-between;
+    background: white;
+    position: relative;
+    padding: 25px;
+    width: 100%;
     
+  }
+
+  .gallery img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    padding: 25px;
+  }
+  .form {
+    width: 30%; /* Adjust the width as needed */
+    margin-right: 20px; /* Add margin for separation from the gallery */
 }
