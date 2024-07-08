@@ -4,6 +4,12 @@
   box-sizing:border-box;
   font-family: sans-serif;
 }
+p{
+  color: whitesmoke;
+}
+h1, h3{
+  color: bisque;
+}
 html{
   scroll-behavior: smooth;
 }
@@ -36,13 +42,13 @@ section nav ul li{
 }
 section nav ul li a{
   text-decoration: none;
-  color: black;
+  color: yellowgreen;
   font-weight: 500;
   font-size: 17px;
   transition: 0.1s;
 }
 body{
-    background-image: url(Orange\ Colorful\ Vibrant\ Illustration\ Animated\ Food\ Restaurant\ Presentation_page-0001.jpg);
+    background-image: url(website\ bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -128,7 +134,7 @@ section .main_btn i{
   transition: 0.3s;
 }
 
-section .mian_btn:hover i{
+section .main_btn:hover i{
   transform: translateX(7px);
 }
 
@@ -345,7 +351,7 @@ section .mian_btn:hover i{
 }
 
 .bar a{
-  color: #fac031;
+  color: #927222;
   text-decoration: none;
   display: block;
   padding: 40px 25px;
@@ -424,7 +430,7 @@ section .mian_btn:hover i{
   .toggle-menu{
       display: block;
   } 
-  .all, .bar{
+  .bar{
       justify-content: start;
       flex-direction: column;
       align-items: center;
