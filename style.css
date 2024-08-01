@@ -48,7 +48,7 @@ section .nav ul li a{
   transition: 0.1s;
 }
 body{
-    background-image: url(website\ bg.jpg);
+    background-image: url(bg\ website.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -144,7 +144,10 @@ section .main_btn:hover i{
 .about{
   width: 100%;
   height: 100vh;
-  padding: 70px 0;
+  padding: 60px 0;
+  top: 0%;
+  left: 0%;
+  background: url(bg\ about.jpg);
 }
 
 .about .about_main{
@@ -156,7 +159,7 @@ section .main_btn:hover i{
 .about .about_main.image img{
   width: 800px;
   position:relative;
-  top: 60px
+  top: 60px;
 }
 
 .about .about_main .about_text h1 span{
@@ -195,12 +198,12 @@ section .main_btn:hover i{
 
 /*Menu*/
 
-.menu{
+.contact{
   width:100%;
   padding: 70px 0;
 }
 
-.menu h1{
+.contact h1{
   font-size: 55px;
   display:flex;
   align-items: center;
@@ -208,13 +211,13 @@ section .main_btn:hover i{
   margin-bottom: 30px;
 }
 
-.menu h1 span{
+.contact h1 span{
   color: #fac031;
   margin-left: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.menu h1 span::after{
+.contact h1 span::after{
   content: '';
   width:100%;
   height: 2px;
@@ -224,15 +227,13 @@ section .main_btn:hover i{
   bottom: 15px;
 }
 
-.menu .menu_box{
-  width: 95%;
+.contact .menu_box{
+  width: 88%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 15px;
+ 
 }
 
-.menu .menu_box .menu_card{
+.contact .menu_box .menu_card{
   width: 325px;
   height:480px;
   padding-top: 10px;
@@ -240,14 +241,14 @@ section .main_btn:hover i{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.menu .menu_box .menu_card .menu_image img{
+.contact .menu_box .menu_card .menu_image img{
   width: 300px;
   height: 245px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.menu .menu_box .menu_card .menu_image img{
+.contact .menu_box .menu_card .menu_image img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -255,11 +256,11 @@ section .main_btn:hover i{
   transition: 0.3s;
 }
 
-.menu .menu_box .menu_card .menu_image:hover img{
+.contact .menu_box .menu_card .menu_image:hover img{
   transform: scale(1.1);
 }
 
-.menu .menu_box .menu_card .small_card{
+.contact .menu_box .menu_card .small_card{
   width: 45px;
   height:45px;
   float: right;
@@ -271,14 +272,14 @@ section .main_btn:hover i{
   transition: 0.3s;
 }
 
-.menu .menu_box .menu_card:hover .small_card{
+.contact .menu_box .menu_card:hover .small_card{
   position: relative;
   top: -240px;
   right: 20px;
   opacity: 1;
 }
 
-.menu .menu_box .menu_card .small_card i{
+.contact .menu_box .menu_card .small_card i{
   font-size: 25px;
   display: flex;
   align-items: center;
@@ -290,11 +291,11 @@ section .main_btn:hover i{
   transition: 0.2s;
 }
 
-.menu .menu_box .menu_card .small_card i:hover{
+.contact .menu_box .menu_card .small_card i:hover{
   color: #fac031;
 }
 
-.menu .menu_box .menu_card .menu_info h2{
+.contact .menu_box .menu_card .menu_info h2{
   width: 60%;
   text-align: center;
   margin: 10px auto 10px auto;
@@ -302,24 +303,24 @@ section .main_btn:hover i{
   color: #fac031;
 }
 
-.menu .menu_box .menu_card .menu_info p{
+.contact .menu_box .menu_card .menu_info p{
   text-align: center;
   margin-top: 8px;
   line-height: 21px;
 }
 
-.menu .menu_box .menu_card .menu_info h3{
+.contact .menu_box .menu_card .menu_info h3{
   text-align: center;
   margin-top: 10px;
 }
 
-.menu .menu_box .menu_card .menu_info .menu_icon{
+.contact .menu_box .menu_card .menu_info .menu_icon{
   color: #fac031;
   text-align: center;
   margin: 10px 0 20px 0;
 }
 
-.menu .menu_box .menu_card .menu_info .menu_btn{
+.contact .menu_box .menu_card .menu_info .menu_btn{
   display: flex;
   align-items: center;
   justify-content: center;
