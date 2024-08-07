@@ -239,6 +239,8 @@ section .main_btn:hover i{
   padding-top: 10px;
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  justify-content: center;
 }
 
 .contact .menu_box .menu_card .menu_image img{
@@ -289,6 +291,8 @@ section .main_btn:hover i{
   cursor: pointer;
   text-shadow: 0 0 6px #000;
   transition: 0.2s;
+  display: inline-block;
+  
 }
 
 .contact .menu_box .menu_card .small_card i:hover{
